@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import hashlib
 import json
+import re
 import shutil
 import stat
 import zipfile
@@ -248,3 +249,11 @@ def test_public_packages_do_not_overwrite_historical_personal_archives(tiny_proj
     package.build_packages(output, tiny_project)
     assert historical.read_bytes() == b"historical-personal-archive"
     assert (output / f"{package.NAME}-v{package.VERSION}.zip").exists()
+
+
+def test_npm_lock_uses_valid_semver_and_official_registry():
+    lock = json.loads((package.ROOT / "frontend/package-lock.json").read_text(encoding="utf-8"))
+    for entry in lock["packages"].values():
+        assert re.fullmatch(r"(?:0|[1-9]\d*)\.(?:0|[1-9]\d*)\.(?:0|[1-9]\d*)(?:[-+][0-9A-Za-z.-]+)?", entry["version"])
+        if "resolved" in entry:
+            assert entry["resolved"].startswith("https://registry.npmjs.org/")
