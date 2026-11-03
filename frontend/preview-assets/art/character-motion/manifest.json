@@ -1,0 +1,262 @@
+{
+  "schema_version": 2,
+  "status": "awaiting-models",
+  "files": {
+    "./art/character-motion/portrait/idle-v1.webp": "b8e85481ca8075f6753f21af10959e75e360108d82a81ee57cc4e68b48bcbc5a",
+    "./art/character-motion/portrait/idle-v1.recipe.json": "2ca5f15af4be72c18e6ce230e1e6abaced82dfde60f2570da7c156729f99a779"
+  },
+  "characters": {
+    "portrait": {
+      "frames": {
+        "neutral": {
+          "static": {
+            "path": "./art/scene-portrait.webp",
+            "width": 500,
+            "height": 991,
+            "foot_anchor": [
+              0.5,
+              1
+            ],
+            "sha256": "32017a191e1893f99a4f1590b2cec1068e52d7d34d9210d142c83aad0009b046"
+          },
+          "webp": {
+            "path": "./art/character-motion/portrait/idle-v1.webp",
+            "width": 500,
+            "height": 991,
+            "foot_anchor": [
+              0.5,
+              1
+            ],
+            "sha256": "b8e85481ca8075f6753f21af10959e75e360108d82a81ee57cc4e68b48bcbc5a",
+            "reviewed": true,
+            "fps": 20,
+            "frame_count": 120,
+            "duration_ms": 6000,
+            "source": {
+              "kind": "local-raster",
+              "static_sha256": "32017a191e1893f99a4f1590b2cec1068e52d7d34d9210d142c83aad0009b046",
+              "recipe": "./art/character-motion/portrait/idle-v1.recipe.json",
+              "recipe_sha256": "2ca5f15af4be72c18e6ce230e1e6abaced82dfde60f2570da7c156729f99a779"
+            }
+          },
+          "loop": true,
+          "duration_seconds": 6
+        },
+        "happy": {
+          "static": {
+            "path": "./art/interaction-v030/happy.webp",
+            "width": 500,
+            "height": 991,
+            "foot_anchor": [
+              0.512,
+              1
+            ],
+            "sha256": "609919ae2ea4f5f64787363595b2e798b4d8fc95847067a482c7c1d0e8576c35"
+          },
+          "webp": null,
+          "loop": true,
+          "duration_seconds": 6
+        },
+        "eat": {
+          "static": {
+            "path": "./art/interaction-v030/eat.webp",
+            "width": 735,
+            "height": 1453,
+            "foot_anchor": [
+              0.510204,
+              1
+            ],
+            "sha256": "e4451daf550534794b68606463a9098e06cd01b19a07b963b29bdd9e1b9a540a"
+          },
+          "webp": null,
+          "loop": false,
+          "duration_seconds": 3
+        },
+        "thinking": {
+          "static": {
+            "path": "./art/interaction-v030/thinking.webp",
+            "width": 500,
+            "height": 991,
+            "foot_anchor": [
+              0.512,
+              1
+            ],
+            "sha256": "b5e8ed2a9b7dabb9296a9f8024980e35cf9ef4e6512d3cb3018bcc3cbfa11e1d"
+          },
+          "webp": null,
+          "loop": true,
+          "duration_seconds": 6
+        },
+        "sleepy": {
+          "static": {
+            "path": "./art/interaction-v030/sleepy.webp",
+            "width": 500,
+            "height": 991,
+            "foot_anchor": [
+              0.512,
+              1
+            ],
+            "sha256": "c2d65878d0fb9b44141f6b6183fb90589259b297e822fa327addc53a3fd646ce"
+          },
+          "webp": null,
+          "loop": true,
+          "duration_seconds": 6
+        },
+        "shy": {
+          "static": {
+            "path": "./art/interaction-v030/shy.webp",
+            "width": 500,
+            "height": 991,
+            "foot_anchor": [
+              0.512,
+              1
+            ],
+            "sha256": "046b9cb13ce35a0112342f41a620c47fc00292dfc99752c3e86bf638a19a14e0"
+          },
+          "webp": null,
+          "loop": true,
+          "duration_seconds": 6
+        },
+        "sad": {
+          "static": {
+            "path": "./art/interaction-v030/sad.webp",
+            "width": 500,
+            "height": 991,
+            "foot_anchor": [
+              0.512,
+              1
+            ],
+            "sha256": "13eec3b23e45b2152bae850a68db63da61c6ba239ceddba525c1ae7b97def005"
+          },
+          "webp": null,
+          "loop": true,
+          "duration_seconds": 6
+        },
+        "pet": {
+          "static": {
+            "path": "./art/interaction-v030/pet.webp",
+            "width": 738,
+            "height": 1442,
+            "foot_anchor": [
+              0.511518,
+              1
+            ],
+            "sha256": "3a09066838745a48af5952cf022c0e44e3dddd570a7bb77fc13b70d20d056266"
+          },
+          "webp": null,
+          "loop": false,
+          "duration_seconds": 3
+        },
+        "accept": {
+          "static": {
+            "path": "./art/interaction-v030/accept.webp",
+            "width": 740,
+            "height": 1474,
+            "foot_anchor": [
+              0.510811,
+              1
+            ],
+            "sha256": "e7332f0a324d70467060df759b83796e919f9c97bb55ed45ba3a55ec7b6cfdda"
+          },
+          "webp": null,
+          "loop": false,
+          "duration_seconds": 3
+        },
+        "drink": {
+          "static": {
+            "path": "./art/interaction-v030/drink.webp",
+            "width": 746,
+            "height": 1463,
+            "foot_anchor": [
+              0.508713,
+              1
+            ],
+            "sha256": "b8768dd51ee5a88cbe434fccb5ed68a11a79c3e0053b9e7c7a45e08b0428b712"
+          },
+          "webp": null,
+          "loop": false,
+          "duration_seconds": 3
+        },
+        "read": {
+          "static": {
+            "path": "./art/interaction-v030/read.webp",
+            "width": 753,
+            "height": 1447,
+            "foot_anchor": [
+              0.51328,
+              1
+            ],
+            "sha256": "99287917dc811678cd508af6de993bd67306935590dcaab1fe1a6ab649c1a739"
+          },
+          "webp": null,
+          "loop": true,
+          "duration_seconds": 6
+        },
+        "play": {
+          "static": {
+            "path": "./art/interaction-v030/play.webp",
+            "width": 736,
+            "height": 1436,
+            "foot_anchor": [
+              0.51087,
+              1
+            ],
+            "sha256": "d15559cf11dc23f3bfa72c4fc94bab00dda841e68e462781b7ad0a74ab15b51d"
+          },
+          "webp": null,
+          "loop": true,
+          "duration_seconds": 6
+        },
+        "rest": {
+          "static": {
+            "path": "./art/interaction-v030/rest.webp",
+            "width": 722,
+            "height": 1472,
+            "foot_anchor": [
+              0.509695,
+              1
+            ],
+            "sha256": "104d0542a6a01aec1fa3bbf61f3d59c69bf0e1ae33a133200d11b18992c03890"
+          },
+          "webp": null,
+          "loop": true,
+          "duration_seconds": 6
+        }
+      }
+    },
+    "chibi": {
+      "frames": {
+        "neutral": {
+          "static": {
+            "path": "./art/scene-chibi-neutral.webp",
+            "width": 362,
+            "height": 482,
+            "foot_anchor": [
+              0.5,
+              1
+            ],
+            "sha256": "ff0cff01c5b2790b6a9d50699411691b58f6b18d86d0e3b4d11f63aa6e6a59a1"
+          },
+          "webp": null,
+          "loop": true,
+          "duration_seconds": 6
+        },
+        "eat": {
+          "static": {
+            "path": "./art/scene-chibi-eat.webp",
+            "width": 362,
+            "height": 482,
+            "foot_anchor": [
+              0.5,
+              1
+            ],
+            "sha256": "ff0cff01c5b2790b6a9d50699411691b58f6b18d86d0e3b4d11f63aa6e6a59a1"
+          },
+          "webp": null,
+          "loop": false,
+          "duration_seconds": 3
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+Use case: illustration-story
+Asset type: first concept background for a fixed-scene, two-dimensional cozy virtual home, with characters composited separately later.
+
+Primary request:
+Create ONE beautifully finished, unoccupied anime-style bedroom and study at night. This is a full-bleed room illustration, not a webpage, not a mockup, and not a diagram. Aim for a quiet, intimate, lived-in nighttime atmosphere with the finish of a carefully painted animated-film background.
+
+Composition and camera:
+Wide landscape, 16:9 framing. A level, straight-on front view looking toward the back wall from across the room, at approximately a seated person's eye height. No overhead camera, no isometric or dollhouse view. Keep vertical lines vertical and the perspective restrained and believable. The wall, furniture fronts, and large window occupy most of the picture; show only a relatively shallow strip of usable floor across the lower fifth to quarter of the picture. Keep important furniture and lights comfortably within the frame.
+
+Scene layout:
+At left, a cozy computer desk and an empty adjustable chair, a softly glowing monitor with only indistinct abstract light shapes, a warm adjustable desk lamp, and a tall bookcase full of neatly imperfect books and small storage boxes.
+At center, a generous rectangular window with soft curtains, deep blue night outside, a few delicate drifting snowflakes, and cool moonlight. A low cabinet with a few books and small potted plants sits beneath or beside the window. Leave an unobstructed standing spot in front of the window.
+At right, a comfortable bed with rumpled blue bedding and pillows, a small bedside cabinet, and a glowing amber-pink bedside lamp. Keep a clear approach beside the bed.
+A modest strand of small warm fairy lights runs high along the wall. Preserve an open, readable foreground path connecting the desk, window, and bedside. These spaces will later hold a separately drawn normal-proportion or chibi whale-girl character. Do not draw that character now.
+
+Style and finish:
+Detailed, cohesive hand-painted 2D illustration with confident fine linework, soft painterly shadows, subtle paper grain, natural fabric folds, wood detail, and carefully arranged small environmental details. The proportions are those of a real cozy room rather than oversized toy furniture. Rich blue and violet nighttime ambience balanced by small pools of warm gold and muted rose light. Soft, localized bloom around lamps and fairy lights; readable shadows, not a heavy blue filter. Let cool window light fall gently across the floor. Make the environment inviting, calm, and suitable for a companion living scene.
+
+Constraints:
+Create an original room design from this description, not a reproduction of an existing picture. Exactly one continuous furnished room and one finished composition. No people, no silhouettes, no faces, no animals, no pets, no cat furniture. No readable text, logos, signatures, watermarks, interfaces, buttons, HUD, grids, borders, split panels, or inset images. No photorealism, 3D rendering, clay look, flat vector icon style, chibi-scale environment, fisheye lens, extreme wide-angle distortion, or high-angle view. No dramatic clutter blocking the character's future activity spots.

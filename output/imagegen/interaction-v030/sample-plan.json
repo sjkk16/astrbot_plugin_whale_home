@@ -1,0 +1,86 @@
+{
+  "stage": "two-sample-review-only",
+  "status": "two_samples_ready_awaiting_user_review",
+  "provider_base_url": "https://fapi.leileihog.top/v1",
+  "requested_model": "gpt-image-2.5-sunburst",
+  "underlying_provider_model_verified": false,
+  "workflow": "Bundled imagegen CLI edit; no custom SDK runner.",
+  "source": "frontend/public/art/scene-portrait.webp",
+  "source_sha256": "32017a191e1893f99a4f1590b2cec1068e52d7d34d9210d142c83aad0009b046",
+  "reference_preparation": {
+    "native_size": [
+      500,
+      991
+    ],
+    "edit_canvas": [
+      1024,
+      1536
+    ],
+    "uniform_scale": 1.4530776992936427,
+    "offset": [
+      148,
+      48
+    ],
+    "mask": "expression facial area only; provider mask behavior is best-effort"
+  },
+  "requests": [
+    {
+      "id": "sample-smile",
+      "prompt": "prompts/sample-smile.txt",
+      "mask": "reference/expression-edit-mask.png",
+      "n": 1
+    },
+    {
+      "id": "sample-eat",
+      "prompt": "prompts/sample-eat.txt",
+      "mask": null,
+      "n": 1,
+      "gate": "only after sample-smile passes API, alpha and identity review"
+    }
+  ],
+  "no_automatic_regeneration_or_model_switch": true,
+  "runtime_assets_modified": false,
+  "runtime_code_modified": false,
+  "repackaging": false,
+  "rights": "Personal preview only. Original author and redistribution rights are unverified.",
+  "credential_policy": "Temporary key provided only to the drawing process through masked input and environment; not persisted in project files, prompts, reports or packages.",
+  "completed_image_cli_invocations": 2,
+  "sdk_transport_retry_default": 2,
+  "http_attempt_count": "Not independently observed; SDK standard retry behavior is distinct from image regeneration.",
+  "first_sample_review": {
+    "requested_model": "gpt-image-2.5-sunburst",
+    "cli_elapsed_seconds": 34.4,
+    "provider_return": "RGBA PNG, 1024x1536; genuine transparent pixels; fringe noise outside the silhouette",
+    "local_processing": "Only the model-produced facial expression is blended into the original native portrait.",
+    "outside_face_changed_pixels": 0,
+    "original_alpha_preserved": true,
+    "visual_review": "Light/dark backgrounds and labeled static room composite inspected; identity and pose retained.",
+    "user_approval": "pending"
+  },
+  "second_sample": {
+    "status": "ready_for_user_review",
+    "image_api_invoked": true,
+    "user_approval": "pending",
+    "requested_model": "gpt-image-2.5-sunburst",
+    "cli_elapsed_seconds": 37.5,
+    "provider_return": "RGBA PNG, 1024x1536, genuine transparency; low-alpha detached fringe noise",
+    "local_processing": "Alpha-support cleanup of detached noise only, then transparent-margin crop; no repaint or second generation.",
+    "alpha_noise_pixels_removed": 21129,
+    "near_opaque_pixels_changed": 0,
+    "rgb_pixels_changed": 0,
+    "final_size": [
+      735,
+      1453
+    ],
+    "visual_review": "Identity/costume, hands and chopsticks, visible white rice, light/dark previews and labeled static-room foot alignment inspected.",
+    "automatic_regeneration": false
+  },
+  "history": [
+    {
+      "stage": "second_sample_initial_credential_entry",
+      "result": "cancelled_or_timed_out",
+      "image_api_invoked": false
+    }
+  ],
+  "next_step": "Wait for the user to review both samples before any additional artwork generation, runtime code edits or packaging."
+}

@@ -1,0 +1,35 @@
+{
+  "chibi_changed": false,
+  "default_assets_changed_by_this_tool": false,
+  "face_and_costume_repainted": false,
+  "height": 991,
+  "license": "LicenseRef-User-Provided-Unverified",
+  "network_requests": 0,
+  "outputs": {
+    "portrait-deepseek-v1.png": "ce9e8dea179a138b67694b52488fa4c5abc5c44e2d206369e7e163377c52ade3",
+    "portrait-deepseek-v1.webp": "32017a191e1893f99a4f1590b2cec1068e52d7d34d9210d142c83aad0009b046",
+    "preview-dark.png": "5c9d17cf1fe257d9378daa02e0aa547ed186a1b780f863d402ec7a1caa143d76",
+    "preview-light.png": "bbd86249f2dfd71100fffc079e8b81815eb544d6473d7fb21240148dee5012b6",
+    "source-mask.png": "6ac4a41f660e43dca0dc4880b3ec0ab29c4200ac7e60db07bb342c3b1809a119"
+  },
+  "rights_note": "Author and redistribution rights unverified; personal preview only. Not covered by the code MIT or the previous portrait's CC license.",
+  "schema_version": 1,
+  "source": "art-sources/character-v021/reference/deepseek-v1.png",
+  "source_alpha_bounds": [
+    36,
+    12,
+    536,
+    1003
+  ],
+  "source_crop": [
+    0,
+    0,
+    544,
+    1024
+  ],
+  "source_role": "User-provided deepseek.png; left/front adult character only.",
+  "source_sha256": "f1dfef333d337cf949aa295b56b7ce985c4628ac9bc7ad5ede95575db6bf9e14",
+  "transform": "Front view only; connected-canvas and 24 reviewed hair-gap removals; one-pixel matte decontamination; alpha-bounds crop; no resize or redraw.",
+  "width": 500,
+  "workflow": "local-reference-extraction"
+}

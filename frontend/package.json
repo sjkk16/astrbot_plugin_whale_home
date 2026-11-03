@@ -1,0 +1,24 @@
+{
+  "name": "whale-home-view",
+  "version": "0.4.2",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "vue-tsc --noEmit && vite build && node ../tools/install_preview_assets.mjs --release",
+    "dev": "vite --host 127.0.0.1",
+    "test": "playwright test",
+    "build:preview": "vue-tsc --noEmit && vite build --outDir ../artifacts/interaction-v030/preview-site && node ../tools/install_preview_assets.mjs",
+    "build:skills-preview": "vue-tsc --noEmit && vite build --outDir ../artifacts/skills-preview/preview-site && node ../tools/install_preview_assets.mjs --skills-preview"
+  },
+  "dependencies": {
+    "@lucide/vue": "^1.0.0",
+    "vue": "3.5.44"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.56.1",
+    "@vitejs/plugin-vue": "6.0.10",
+    "typescript": "~5.9.3",
+    "vite": "8.3.5",
+    "vue-tsc": "^3.1.4"
+  }
+}

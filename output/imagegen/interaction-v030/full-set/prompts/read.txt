@@ -1,0 +1,8 @@
+Use case: identity-preserve
+Asset type: full-body normal-proportion character expression / action sprite for a personal companion-room preview.
+Input images: Image 1 is the edit target, derived solely from the approved current front portrait. It is the only identity, costume and style reference.
+Identity invariants: exactly the same adult, non-chibi character; same facial identity and blue eyes, blue hair and headband, hair ornaments, navy-and-white dress, white frilled apron with its existing whale emblem, navy bow, gold skirt embroidery, white stockings and navy shoes. Preserve the original body proportions, apparent age, skin tone, hem length, view angle and rendering style. No redesign, no new costume details, no extra visible appendages.
+Composition: single full-body front-view character, feet and hair completely inside the canvas, matching the edit target's scale, central framing and standing foot position. Do not zoom, stretch or crop.
+Background: actual transparent alpha, including empty canvas and gaps around the silhouette; preserve opaque white fabric, eye highlights and socks. No painted checkerboard, no white or colored backdrop, no ground or cast shadow.
+Text: none. No captions, signatures, logos beyond the existing costume emblem, watermarks or extra characters.
+Primary request: Create a standing reading pose: she holds one small open storybook at chest-to-waist height in both hands, looking down slightly with a curious thoughtful expression. Keep her face and original identity visible, each hand clearly supporting the book edge. No readable text on the book. Preserve the original clothing, standing proportions and feet; no chair or table, no duplicated hands. Do not hide the neck bow or lower apron whale emblem.

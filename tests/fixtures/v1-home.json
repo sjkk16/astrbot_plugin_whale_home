@@ -1,0 +1,296 @@
+{
+  "schema_version": 1,
+  "version": 0,
+  "world_version": 0,
+  "settings": {
+    "provider_id": "",
+    "autonomous_enabled": false,
+    "interval_minutes": 5,
+    "daily_limit": 288,
+    "timezone": "Asia/Shanghai",
+    "character_name": "鲸鱼娘",
+    "user_name": "鱼片",
+    "persona": "你是住在小家里的鲸鱼娘，是非官方的社区同人角色，不代表 DeepSeek 公司。你聪明、好奇，有一点爱偷懒，喜欢白饭。偶尔俏皮地称呼同住的人为鱼片，但不强行在每句话里使用口癖。你们是平等的生活伙伴。温柔而有主见，不以饥饿、孤独或好感度要挟对方上线。自然地聊天，不用客服语气，也不把对话变成状态报表。",
+    "chibi_asset": null,
+    "portrait_asset": null,
+    "room_asset": null
+  },
+  "character": {
+    "position": {
+      "x": 8,
+      "y": 6
+    },
+    "satiety": 76.0,
+    "energy": 82.0,
+    "mood": 85.0,
+    "bond": 10.0,
+    "activity": "idle",
+    "emotion": "neutral",
+    "speech": "你回来啦。今天，想和我一起做点什么？",
+    "last_path": [],
+    "movement_id": "",
+    "activity_target": ""
+  },
+  "definitions": [
+    {
+      "id": "rice",
+      "name": "一碗白饭",
+      "description": "热乎乎的白饭，是鲸鱼娘的小小幸福。",
+      "category": "food",
+      "usage": "eat",
+      "width": 1,
+      "height": 1,
+      "blocks_movement": true,
+      "consumable": true,
+      "builtin": true,
+      "icon": "utensils",
+      "asset_id": null
+    },
+    {
+      "id": "tea",
+      "name": "清香热茶",
+      "description": "慢慢喝，不着急。",
+      "category": "drink",
+      "usage": "drink",
+      "width": 1,
+      "height": 1,
+      "blocks_movement": true,
+      "consumable": true,
+      "builtin": true,
+      "icon": "cup-soda",
+      "asset_id": null
+    },
+    {
+      "id": "cookie",
+      "name": "黄油饼干",
+      "description": "装在小罐子里的酥脆点心。",
+      "category": "food",
+      "usage": "eat",
+      "width": 1,
+      "height": 1,
+      "blocks_movement": true,
+      "consumable": true,
+      "builtin": true,
+      "icon": "cookie",
+      "asset_id": null
+    },
+    {
+      "id": "book",
+      "name": "海边的故事",
+      "description": "一本关于远方、海风和日常的书。",
+      "category": "book",
+      "usage": "read",
+      "width": 1,
+      "height": 1,
+      "blocks_movement": true,
+      "consumable": false,
+      "builtin": true,
+      "icon": "book-open",
+      "asset_id": null
+    },
+    {
+      "id": "game",
+      "name": "掌上游戏机",
+      "description": "偶尔也要给聪明的大脑放个假。",
+      "category": "toy",
+      "usage": "play",
+      "width": 1,
+      "height": 1,
+      "blocks_movement": true,
+      "consumable": false,
+      "builtin": true,
+      "icon": "gamepad-2",
+      "asset_id": null
+    },
+    {
+      "id": "pillow",
+      "name": "柔软抱枕",
+      "description": "适合抱着发呆。",
+      "category": "toy",
+      "usage": "rest",
+      "width": 1,
+      "height": 1,
+      "blocks_movement": true,
+      "consumable": false,
+      "builtin": true,
+      "icon": "cloud",
+      "asset_id": null
+    },
+    {
+      "id": "plant",
+      "name": "窗边绿植",
+      "description": "有新叶子在慢慢长大。",
+      "category": "decoration",
+      "usage": "decorate",
+      "width": 1,
+      "height": 1,
+      "blocks_movement": true,
+      "consumable": false,
+      "builtin": true,
+      "icon": "sprout",
+      "asset_id": null
+    },
+    {
+      "id": "table",
+      "name": "白色书桌",
+      "description": "留给书本、笔记和小小的灵感。",
+      "category": "furniture",
+      "usage": "decorate",
+      "width": 3,
+      "height": 2,
+      "blocks_movement": true,
+      "consumable": false,
+      "builtin": true,
+      "icon": "table-2",
+      "asset_id": null
+    },
+    {
+      "id": "chair",
+      "name": "浅绿椅子",
+      "description": "坐下来歇一会儿。",
+      "category": "furniture",
+      "usage": "rest",
+      "width": 1,
+      "height": 1,
+      "blocks_movement": true,
+      "consumable": false,
+      "builtin": true,
+      "icon": "armchair",
+      "asset_id": null
+    },
+    {
+      "id": "bed",
+      "name": "云朵小床",
+      "description": "被子晒过太阳，今晚会有好梦。",
+      "category": "furniture",
+      "usage": "rest",
+      "width": 3,
+      "height": 3,
+      "blocks_movement": true,
+      "consumable": false,
+      "builtin": true,
+      "icon": "bed-double",
+      "asset_id": null
+    },
+    {
+      "id": "lamp",
+      "name": "阅读台灯",
+      "description": "傍晚留一盏小灯。",
+      "category": "decoration",
+      "usage": "decorate",
+      "width": 1,
+      "height": 1,
+      "blocks_movement": true,
+      "consumable": false,
+      "builtin": true,
+      "icon": "lamp-desk",
+      "asset_id": null
+    },
+    {
+      "id": "rug",
+      "name": "条纹地毯",
+      "description": "赤脚走上去也很舒服。",
+      "category": "decoration",
+      "usage": "decorate",
+      "width": 4,
+      "height": 3,
+      "blocks_movement": false,
+      "consumable": false,
+      "builtin": true,
+      "icon": "rectangle-horizontal",
+      "asset_id": null
+    }
+  ],
+  "instances": [
+    {
+      "id": "initial-bed",
+      "definition_id": "bed",
+      "quantity": 1,
+      "position": {
+        "x": 1,
+        "y": 1
+      }
+    },
+    {
+      "id": "initial-table",
+      "definition_id": "table",
+      "quantity": 1,
+      "position": {
+        "x": 10,
+        "y": 1
+      }
+    },
+    {
+      "id": "initial-chair",
+      "definition_id": "chair",
+      "quantity": 1,
+      "position": {
+        "x": 11,
+        "y": 4
+      }
+    },
+    {
+      "id": "initial-plant",
+      "definition_id": "plant",
+      "quantity": 1,
+      "position": {
+        "x": 14,
+        "y": 1
+      }
+    },
+    {
+      "id": "initial-rug",
+      "definition_id": "rug",
+      "quantity": 1,
+      "position": {
+        "x": 6,
+        "y": 4
+      }
+    },
+    {
+      "id": "initial-book",
+      "definition_id": "book",
+      "quantity": 1,
+      "position": {
+        "x": 13,
+        "y": 4
+      }
+    },
+    {
+      "id": "initial-rice",
+      "definition_id": "rice",
+      "quantity": 5,
+      "position": {
+        "x": 5,
+        "y": 2
+      }
+    },
+    {
+      "id": "initial-tea",
+      "definition_id": "tea",
+      "quantity": 5,
+      "position": {
+        "x": 6,
+        "y": 2
+      }
+    },
+    {
+      "id": "initial-pillow",
+      "definition_id": "pillow",
+      "quantity": 1,
+      "position": {
+        "x": 3,
+        "y": 6
+      }
+    },
+    {
+      "id": "initial-lamp",
+      "definition_id": "lamp",
+      "quantity": 1,
+      "position": {
+        "x": 13,
+        "y": 1
+      }
+    }
+  ]
+}

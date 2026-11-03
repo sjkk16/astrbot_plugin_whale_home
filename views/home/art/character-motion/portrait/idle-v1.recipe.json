@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "kind": "local-raster",
+  "static_sha256": "32017a191e1893f99a4f1590b2cec1068e52d7d34d9210d142c83aad0009b046",
+  "output_sha256": "b8e85481ca8075f6753f21af10959e75e360108d82a81ee57cc4e68b48bcbc5a",
+  "fps": 20,
+  "frame_count": 120,
+  "duration_ms": 6000,
+  "blink_count": 2,
+  "closed_eye_style": "user-selected thick smiling lashes; eyelash-only extraction",
+  "breathing": "local premultiplied-alpha warp; feet fixed; no full-image transform",
+  "source_directory": "output/portrait-idle-v1",
+  "source_files": {
+    "generate_idle.py": "fcd4614ae7d6269972f350291dfb52977139add31fcc85a67291d31cfb8aa771",
+    "prepare_reference_lashes.py": "c72915201dbcf56d976602a2af4f05a9a2de0fc8957390ade93f84e0f8da971f",
+    "inspection-pet-eyes.png": "a0ac53ee04756b7f94d9fbe157af99c9bccab6df6c71f0a70878fb471fcc5cb0"
+  },
+  "verification_files": {
+    "qa/decoded-audit.json": "9c23fef1392c0059fc73a28487c9bda93d76cc583dbbd2195836aaa3c770ab9d",
+    "qa/native-playback-report.json": "03a401992c8dd5e98c3e89ffec701e195a009605f55b07e557f000f53ac719b5",
+    "qa/browser-decoder-playback.json": "0c859eeefc75c5a6696b2c93d5b4ed815e571d9610c2842f628bfc25366f26bb"
+  },
+  "approval": {
+    "date": "2026-11-02",
+    "scope": "portrait neutral WebP only",
+    "basis": "User accepted the thick-lash idle preview and requested installation into the plugin"
+  },
+  "license": "Personal preview only; underlying artwork redistribution rights unverified.",
+  "source_check": {
+    "path": "art-sources/portrait-animation/source-check.json",
+    "sha256": "e5c2f80e024cffdef57f6d79f4ab1c6a2d8773cedd8e8cf4185cb7a6ae190ef2"
+  }
+}

@@ -1,0 +1,9 @@
+name: astrbot_plugin_whale_home
+display_name: 鲸鱼娘的小家
+desc: 固定夜景里的单角色生活小家。聊天、场景互动、收纳、记忆与技能工具。v0.4.2 公开发布；素材公开分发由用户确认。
+short_desc: 一间小屋，一位鲸鱼娘，一起慢慢生活。
+version: v0.4.2
+author: Whale Home Contributors
+astrbot_version: ">=4.29.3,<5"
+
+repo: https://github.com/sjkk16/astrbot_plugin_whale_home

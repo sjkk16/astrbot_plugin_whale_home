@@ -1,0 +1,405 @@
+{
+  "schema_version": 1,
+  "package_audience": "public-release",
+  "distribution_confirmation": {
+    "date": "2026-11-03",
+    "basis": "user-confirmation",
+    "independently_verified": false
+  },
+  "assets": [
+    {
+      "file": "views/home/art/chibi-eat.webp",
+      "sha256": "ff0cff01c5b2790b6a9d50699411691b58f6b18d86d0e3b4d11f63aa6e6a59a1",
+      "author": "Unknown; user-provided chibi reference (2026-11-02)",
+      "license": "LicenseRef-User-Confirmed-Distribution",
+      "source": "art-sources/chibi-v20261102/reference.jpg",
+      "source_sha256": "12c5fd201fb65161b30d803a45b5fd29ff4ae6e02a3b1394d1a1c8fd86a75f5b",
+      "modifications": "Left/front view; reviewed canvas/hair-gap mask; one-pixel edge unmatting; alpha-trimmed lossless WebP; no resize/redraw. Neutral static fallback; no eating pose provided.",
+      "distribution": "Public distribution confirmed by the user on 2026-11-03; authorship and underlying permissions not independently verified.",
+      "license_status": "Not covered by the code MIT or the previous chibi artwork license."
+    },
+    {
+      "file": "views/home/art/chibi-neutral.webp",
+      "sha256": "ff0cff01c5b2790b6a9d50699411691b58f6b18d86d0e3b4d11f63aa6e6a59a1",
+      "author": "Unknown; user-provided chibi reference (2026-11-02)",
+      "license": "LicenseRef-User-Confirmed-Distribution",
+      "source": "art-sources/chibi-v20261102/reference.jpg",
+      "source_sha256": "12c5fd201fb65161b30d803a45b5fd29ff4ae6e02a3b1394d1a1c8fd86a75f5b",
+      "modifications": "Left/front view; reviewed canvas/hair-gap mask; one-pixel edge unmatting; alpha-trimmed lossless WebP; no resize/redraw.",
+      "distribution": "Public distribution confirmed by the user on 2026-11-03; authorship and underlying permissions not independently verified.",
+      "license_status": "Not covered by the code MIT or the previous chibi artwork license."
+    },
+    {
+      "file": "views/home/art/items/bed.svg",
+      "sha256": "138486ba6f97e912d5d8ef08c011aad0e5e6dab10f4ea7475221174841c47792",
+      "author": "Whale Home Contributors",
+      "license": "MIT",
+      "source": "original code-drawn game artwork",
+      "modifications": "original"
+    },
+    {
+      "file": "views/home/art/items/book.svg",
+      "sha256": "ebddc1f1ecbc2041bf4b08beee5b8d05b9fd5911925d1a993336d9563b1b5fb3",
+      "author": "Whale Home Contributors",
+      "license": "MIT",
+      "source": "original code-drawn game artwork",
+      "modifications": "original"
+    },
+    {
+      "file": "views/home/art/items/chair.svg",
+      "sha256": "bc39e1675ddbeb60668cfa744a743a0354511d4e2d160d1f2623c1a2aef93caf",
+      "author": "Whale Home Contributors",
+      "license": "MIT",
+      "source": "original code-drawn game artwork",
+      "modifications": "original"
+    },
+    {
+      "file": "views/home/art/items/cookie.svg",
+      "sha256": "fe54ceb1f8106115f08c9164c9e2f421c477b073e3968c39360ddd084f327b2e",
+      "author": "Whale Home Contributors",
+      "license": "MIT",
+      "source": "original code-drawn game artwork",
+      "modifications": "original"
+    },
+    {
+      "file": "views/home/art/items/game.svg",
+      "sha256": "77560b0f3f064588dea13b255ad0204489f198da14520098e41afaeb6e9c3a66",
+      "author": "Whale Home Contributors",
+      "license": "MIT",
+      "source": "original code-drawn game artwork",
+      "modifications": "original"
+    },
+    {
+      "file": "views/home/art/items/lamp.svg",
+      "sha256": "4f3e40971f32bbd63dc2ddcc03af641dc6ac23c516ed788c9ffab99cdd07eb21",
+      "author": "Whale Home Contributors",
+      "license": "MIT",
+      "source": "original code-drawn game artwork",
+      "modifications": "original"
+    },
+    {
+      "file": "views/home/art/items/pillow.svg",
+      "sha256": "bc4fe4782bc0d532e0c459dd8e28f34dd8e65cc13721e814feaed9258a18c321",
+      "author": "Whale Home Contributors",
+      "license": "MIT",
+      "source": "original code-drawn game artwork",
+      "modifications": "original"
+    },
+    {
+      "file": "views/home/art/items/plant.svg",
+      "sha256": "012d479f7caece3839919127f56ee47d256f36e48eab1998fd25653c3472f39d",
+      "author": "Whale Home Contributors",
+      "license": "MIT",
+      "source": "original code-drawn game artwork",
+      "modifications": "original"
+    },
+    {
+      "file": "views/home/art/items/rice.svg",
+      "sha256": "67e5b16a8491f1d7352041ce6f005c3dfada2e67ff8c808525acda118a940fee",
+      "author": "Whale Home Contributors",
+      "license": "MIT",
+      "source": "original code-drawn game artwork",
+      "modifications": "original"
+    },
+    {
+      "file": "views/home/art/items/rug.svg",
+      "sha256": "729d38fa18209fcc0a0f2cd2df15bee067a19350e5b26a8108b787f92d000d70",
+      "author": "Whale Home Contributors",
+      "license": "MIT",
+      "source": "original code-drawn game artwork",
+      "modifications": "original"
+    },
+    {
+      "file": "views/home/art/items/table.svg",
+      "sha256": "933fa1caac9a3b6c862d3a552741309c1ed47128b0f35006ac0c2909595929d6",
+      "author": "Whale Home Contributors",
+      "license": "MIT",
+      "source": "original code-drawn game artwork",
+      "modifications": "original"
+    },
+    {
+      "file": "views/home/art/items/tea.svg",
+      "sha256": "74e1c53cc6d7e800db0f1e874f966eb6cdcaab3268617c1b8a7708f6bf479ed6",
+      "author": "Whale Home Contributors",
+      "license": "MIT",
+      "source": "original code-drawn game artwork",
+      "modifications": "original"
+    },
+    {
+      "file": "views/home/art/night-room.webp",
+      "sha256": "53a9670cc9332090c0be30ae926235978faa32520c7770e8c832da56281cf395",
+      "author": "AI-generated concept from the local project; underlying model unverified",
+      "license": "LicenseRef-User-Confirmed-Distribution",
+      "source": "art-sources/night-room-v1.png; original provider provenance preserved alongside it",
+      "source_sha256": "3272ec74b024ffdb179e89ee3f6888e3c6999af65af2ce74824d717a71e87ef7",
+      "modifications": "Full original frame, no resize or crop; RGB WebP quality 95.",
+      "distribution": "Public distribution confirmed by the user on 2026-11-03; underlying permissions not independently verified.",
+      "license_status": "User confirmation is not an independent rights audit or a commercial-use grant."
+    },
+    {
+      "file": "views/home/art/portrait.webp",
+      "sha256": "32017a191e1893f99a4f1590b2cec1068e52d7d34d9210d142c83aad0009b046",
+      "author": "Unknown; user-provided reference deepseek.png",
+      "license": "LicenseRef-User-Confirmed-Distribution",
+      "source": "art-sources/character-v021/reference/deepseek-v1.png",
+      "source_sha256": "f1dfef333d337cf949aa295b56b7ce985c4628ac9bc7ad5ede95575db6bf9e14",
+      "modifications": "Left/front adult view only; reviewed canvas/hair-gap mask; one-pixel matte correction; alpha-trimmed lossless WebP, no resize/redraw.",
+      "distribution": "Public distribution confirmed by the user on 2026-11-03; authorship and underlying permissions not independently verified.",
+      "license_status": "Not covered by the code MIT or the previous portrait's CC license."
+    },
+    {
+      "file": "views/home/art/room.svg",
+      "sha256": "50ed42efd1493653a31845b1e9a0665bb75efdc894c9550cb7f301e656431d2f",
+      "author": "Whale Home Contributors",
+      "license": "MIT",
+      "source": "original code-drawn game artwork",
+      "modifications": "original"
+    },
+    {
+      "file": "views/home/art/scene-chibi-eat.webp",
+      "sha256": "ff0cff01c5b2790b6a9d50699411691b58f6b18d86d0e3b4d11f63aa6e6a59a1",
+      "author": "Unknown; user-provided chibi reference (2026-11-02)",
+      "license": "LicenseRef-User-Confirmed-Distribution",
+      "source": "art-sources/chibi-v20261102/reference.jpg",
+      "source_sha256": "12c5fd201fb65161b30d803a45b5fd29ff4ae6e02a3b1394d1a1c8fd86a75f5b",
+      "modifications": "Left/front view; reviewed canvas/hair-gap mask; one-pixel edge unmatting; alpha-trimmed lossless WebP; no resize/redraw. Neutral static fallback; no eating pose provided. Alpha-bounds crop for scene foot anchoring; lossless WebP.",
+      "distribution": "Public distribution confirmed by the user on 2026-11-03; authorship and underlying permissions not independently verified.",
+      "license_status": "Not covered by the code MIT or the previous chibi artwork license.",
+      "source_file": "frontend/public/art/chibi-eat.webp"
+    },
+    {
+      "file": "views/home/art/scene-chibi-neutral.webp",
+      "sha256": "ff0cff01c5b2790b6a9d50699411691b58f6b18d86d0e3b4d11f63aa6e6a59a1",
+      "author": "Unknown; user-provided chibi reference (2026-11-02)",
+      "license": "LicenseRef-User-Confirmed-Distribution",
+      "source": "art-sources/chibi-v20261102/reference.jpg",
+      "source_sha256": "12c5fd201fb65161b30d803a45b5fd29ff4ae6e02a3b1394d1a1c8fd86a75f5b",
+      "modifications": "Left/front view; reviewed canvas/hair-gap mask; one-pixel edge unmatting; alpha-trimmed lossless WebP; no resize/redraw. Alpha-bounds crop for scene foot anchoring; lossless WebP.",
+      "distribution": "Public distribution confirmed by the user on 2026-11-03; authorship and underlying permissions not independently verified.",
+      "license_status": "Not covered by the code MIT or the previous chibi artwork license.",
+      "source_file": "frontend/public/art/chibi-neutral.webp"
+    },
+    {
+      "file": "views/home/art/scene-portrait.webp",
+      "sha256": "32017a191e1893f99a4f1590b2cec1068e52d7d34d9210d142c83aad0009b046",
+      "author": "Unknown; user-provided reference deepseek.png",
+      "license": "LicenseRef-User-Confirmed-Distribution",
+      "source": "art-sources/character-v021/reference/deepseek-v1.png",
+      "source_sha256": "f1dfef333d337cf949aa295b56b7ce985c4628ac9bc7ad5ede95575db6bf9e14",
+      "modifications": "Left/front adult view only; reviewed canvas/hair-gap mask; one-pixel matte correction; alpha-trimmed lossless WebP, no resize/redraw. Alpha-bounds crop for scene foot anchoring; lossless WebP.",
+      "distribution": "Public distribution confirmed by the user on 2026-11-03; authorship and underlying permissions not independently verified.",
+      "license_status": "Not covered by the code MIT or the previous portrait's CC license.",
+      "source_file": "frontend/public/art/portrait.webp"
+    },
+    {
+      "file": "views/home/art/interaction-v030/accept.webp",
+      "sha256": "e7332f0a324d70467060df759b83796e919f9c97bb55ed45ba3a55ec7b6cfdda",
+      "author": "AI-derived from user-provided deepseek.png; source author unverified",
+      "license": "LicenseRef-User-Confirmed-Distribution",
+      "source": "output/imagegen/interaction-v030/full-set/raw/accept.png",
+      "source_sha256": "d8345112d247804e7befa1fc5cb57a369cb43655bf7cfc1ee98313c4763e6dae",
+      "modifications": "Connected alpha >=16 with two-pixel edge support; transparent-margin crop",
+      "distribution": "Public distribution confirmed by the user on 2026-11-03; underlying permissions not independently verified.",
+      "width": 740,
+      "height": 1474,
+      "foot_anchor": [
+        0.510811,
+        1.0
+      ]
+    },
+    {
+      "file": "views/home/art/interaction-v030/drink.webp",
+      "sha256": "b8768dd51ee5a88cbe434fccb5ed68a11a79c3e0053b9e7c7a45e08b0428b712",
+      "author": "AI-derived from user-provided deepseek.png; source author unverified",
+      "license": "LicenseRef-User-Confirmed-Distribution",
+      "source": "output/imagegen/interaction-v030/full-set/raw/drink.png",
+      "source_sha256": "3eb1b294d3193af8a979c79ddcde83b83897b04f53be89deb368e169071fc695",
+      "modifications": "Connected alpha >=16 with two-pixel edge support; transparent-margin crop",
+      "distribution": "Public distribution confirmed by the user on 2026-11-03; underlying permissions not independently verified.",
+      "width": 746,
+      "height": 1463,
+      "foot_anchor": [
+        0.508713,
+        1.0
+      ]
+    },
+    {
+      "file": "views/home/art/interaction-v030/eat.webp",
+      "sha256": "e4451daf550534794b68606463a9098e06cd01b19a07b963b29bdd9e1b9a540a",
+      "author": "AI-derived from user-provided deepseek.png; source author unverified",
+      "license": "LicenseRef-User-Confirmed-Distribution",
+      "source": "output/imagegen/interaction-v030/sample-eat.png",
+      "source_sha256": "f7eb06e0dc95638ef8b0206fab501ad20ebb212f957aefebc54ea9e37bc356bf",
+      "modifications": "reuse existing reviewed sample unchanged",
+      "distribution": "Public distribution confirmed by the user on 2026-11-03; underlying permissions not independently verified.",
+      "width": 735,
+      "height": 1453,
+      "foot_anchor": [
+        0.510204,
+        1.0
+      ]
+    },
+    {
+      "file": "views/home/art/interaction-v030/happy.webp",
+      "sha256": "609919ae2ea4f5f64787363595b2e798b4d8fc95847067a482c7c1d0e8576c35",
+      "author": "AI-derived from user-provided deepseek.png; source author unverified",
+      "license": "LicenseRef-User-Confirmed-Distribution",
+      "source": "output/imagegen/interaction-v030/sample-smile.png",
+      "source_sha256": "57774aad2e4f0d8e1c6003ced35f3e15d66aeb14257b45486c3338675167fe8a",
+      "modifications": "reuse existing reviewed sample unchanged",
+      "distribution": "Public distribution confirmed by the user on 2026-11-03; underlying permissions not independently verified.",
+      "width": 500,
+      "height": 991,
+      "foot_anchor": [
+        0.512,
+        1.0
+      ]
+    },
+    {
+      "file": "views/home/art/interaction-v030/pet.webp",
+      "sha256": "3a09066838745a48af5952cf022c0e44e3dddd570a7bb77fc13b70d20d056266",
+      "author": "AI-derived from user-provided deepseek.png; source author unverified",
+      "license": "LicenseRef-User-Confirmed-Distribution",
+      "source": "output/imagegen/interaction-v030/full-set/raw/pet.png",
+      "source_sha256": "5aab0b4c5720e764b595dc760652bbd0f8a760637a39620898afb72e7fb7e957",
+      "modifications": "Connected alpha >=16 with two-pixel edge support; transparent-margin crop",
+      "distribution": "Public distribution confirmed by the user on 2026-11-03; underlying permissions not independently verified.",
+      "width": 738,
+      "height": 1442,
+      "foot_anchor": [
+        0.511518,
+        1.0
+      ]
+    },
+    {
+      "file": "views/home/art/interaction-v030/play.webp",
+      "sha256": "d15559cf11dc23f3bfa72c4fc94bab00dda841e68e462781b7ad0a74ab15b51d",
+      "author": "AI-derived from user-provided deepseek.png; source author unverified",
+      "license": "LicenseRef-User-Confirmed-Distribution",
+      "source": "output/imagegen/interaction-v030/full-set/raw/play.png",
+      "source_sha256": "dcd5fbd178d5e13f1a4e57730893e4202112d64ffb88b0eef8d1ece4e84598cb",
+      "modifications": "Connected alpha >=16 with two-pixel edge support; transparent-margin crop",
+      "distribution": "Public distribution confirmed by the user on 2026-11-03; underlying permissions not independently verified.",
+      "width": 736,
+      "height": 1436,
+      "foot_anchor": [
+        0.51087,
+        1.0
+      ]
+    },
+    {
+      "file": "views/home/art/interaction-v030/read.webp",
+      "sha256": "99287917dc811678cd508af6de993bd67306935590dcaab1fe1a6ab649c1a739",
+      "author": "AI-derived from user-provided deepseek.png; source author unverified",
+      "license": "LicenseRef-User-Confirmed-Distribution",
+      "source": "output/imagegen/interaction-v030/full-set/raw/read.png",
+      "source_sha256": "528b491daeffff57785212aa3917cc5799daf4e883fa0b721a41df2abdd36553",
+      "modifications": "Connected alpha >=16 with two-pixel edge support; transparent-margin crop",
+      "distribution": "Public distribution confirmed by the user on 2026-11-03; underlying permissions not independently verified.",
+      "width": 753,
+      "height": 1447,
+      "foot_anchor": [
+        0.51328,
+        1.0
+      ]
+    },
+    {
+      "file": "views/home/art/interaction-v030/rest.webp",
+      "sha256": "104d0542a6a01aec1fa3bbf61f3d59c69bf0e1ae33a133200d11b18992c03890",
+      "author": "AI-derived from user-provided deepseek.png; source author unverified",
+      "license": "LicenseRef-User-Confirmed-Distribution",
+      "source": "output/imagegen/interaction-v030/full-set/raw/rest.png",
+      "source_sha256": "2e391842f0013d4ed9c1443ef2e7bc13b010fa06936f5758ea994992c57b0887",
+      "modifications": "Connected alpha >=16 with two-pixel edge support; transparent-margin crop",
+      "distribution": "Public distribution confirmed by the user on 2026-11-03; underlying permissions not independently verified.",
+      "width": 722,
+      "height": 1472,
+      "foot_anchor": [
+        0.509695,
+        1.0
+      ]
+    },
+    {
+      "file": "views/home/art/interaction-v030/sad.webp",
+      "sha256": "13eec3b23e45b2152bae850a68db63da61c6ba239ceddba525c1ae7b97def005",
+      "author": "AI-derived from user-provided deepseek.png; source author unverified",
+      "license": "LicenseRef-User-Confirmed-Distribution",
+      "source": "output/imagegen/interaction-v030/full-set/raw/sad.png",
+      "source_sha256": "a854bc33ebee7acf7a965a3e71c993e9efd00b3daa1870d00827385ff53ceac9",
+      "modifications": "existing model-produced face blended into original portrait",
+      "distribution": "Public distribution confirmed by the user on 2026-11-03; underlying permissions not independently verified.",
+      "width": 500,
+      "height": 991,
+      "foot_anchor": [
+        0.512,
+        1.0
+      ]
+    },
+    {
+      "file": "views/home/art/interaction-v030/shy.webp",
+      "sha256": "046b9cb13ce35a0112342f41a620c47fc00292dfc99752c3e86bf638a19a14e0",
+      "author": "AI-derived from user-provided deepseek.png; source author unverified",
+      "license": "LicenseRef-User-Confirmed-Distribution",
+      "source": "output/imagegen/interaction-v030/full-set/raw/shy.png",
+      "source_sha256": "c303abe37b53a87630af570db50335d52dd207902bba290e201ede88b84dec61",
+      "modifications": "existing model-produced face blended into original portrait",
+      "distribution": "Public distribution confirmed by the user on 2026-11-03; underlying permissions not independently verified.",
+      "width": 500,
+      "height": 991,
+      "foot_anchor": [
+        0.512,
+        1.0
+      ]
+    },
+    {
+      "file": "views/home/art/interaction-v030/sleepy.webp",
+      "sha256": "c2d65878d0fb9b44141f6b6183fb90589259b297e822fa327addc53a3fd646ce",
+      "author": "AI-derived from user-provided deepseek.png; source author unverified",
+      "license": "LicenseRef-User-Confirmed-Distribution",
+      "source": "output/imagegen/interaction-v030/full-set/raw/sleepy.png",
+      "source_sha256": "4f587e99ae73f0bfbf5142fb1ec6aa89d5e09ebc57aa8610a94757bbe41b3ad4",
+      "modifications": "existing model-produced face blended into original portrait",
+      "distribution": "Public distribution confirmed by the user on 2026-11-03; underlying permissions not independently verified.",
+      "width": 500,
+      "height": 991,
+      "foot_anchor": [
+        0.512,
+        1.0
+      ]
+    },
+    {
+      "file": "views/home/art/interaction-v030/thinking.webp",
+      "sha256": "b5e8ed2a9b7dabb9296a9f8024980e35cf9ef4e6512d3cb3018bcc3cbfa11e1d",
+      "author": "AI-derived from user-provided deepseek.png; source author unverified",
+      "license": "LicenseRef-User-Confirmed-Distribution",
+      "source": "output/imagegen/interaction-v030/full-set/raw/thinking.png",
+      "source_sha256": "4aa8907614913ab672497b5ece876ed6873aa01a77ab068b7c8d34b4436ae023",
+      "modifications": "existing model-produced face blended into original portrait",
+      "distribution": "Public distribution confirmed by the user on 2026-11-03; underlying permissions not independently verified.",
+      "width": 500,
+      "height": 991,
+      "foot_anchor": [
+        0.512,
+        1.0
+      ]
+    }
+  ],
+  "character_motion": {
+    "complete": false,
+    "reviewed_animations": 1,
+    "files": [
+      {
+        "file": "views/home/art/character-motion/manifest.json",
+        "sha256": "a06b54da6d103b91d716abd528a54a60e20edcf4c9b5ff5cebcca08c32630045"
+      },
+      {
+        "file": "views/home/art/character-motion/portrait/idle-v1.webp",
+        "sha256": "b8e85481ca8075f6753f21af10959e75e360108d82a81ee57cc4e68b48bcbc5a"
+      },
+      {
+        "file": "views/home/art/character-motion/portrait/idle-v1.recipe.json",
+        "sha256": "2ca5f15af4be72c18e6ce230e1e6abaced82dfde60f2570da7c156729f99a779"
+      }
+    ]
+  }
+}

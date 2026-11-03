@@ -1,0 +1,7 @@
+aiosqlite>=0.21.0,<1
+pydantic>=2.12.5,<3
+pillow>=11.2.1,<13
+pathfinding>=1.0.18,<2
+tzdata>=2025.1
+
+playwright>=1.58,<2

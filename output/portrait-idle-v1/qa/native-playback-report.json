@@ -1,0 +1,57 @@
+{
+  "method": "Actual browser native IMG screenshots, not canvas and not generated frames",
+  "screenSamples": 644,
+  "consistentViewportSamples": 644,
+  "excludedViewportReflowSamples": 0,
+  "firstSampleMs": 53,
+  "lastSampleMs": 19002,
+  "observedSpanMs": 18949,
+  "gif_and_webp_opened": true,
+  "visible_closed_eye_events": [
+    {
+      "startMs": 1219,
+      "endMs": 1316,
+      "index": 40
+    },
+    {
+      "startMs": 4209,
+      "endMs": 4333,
+      "index": 140
+    },
+    {
+      "startMs": 7201,
+      "endMs": 7346,
+      "index": 243
+    },
+    {
+      "startMs": 10218,
+      "endMs": 10334,
+      "index": 345
+    },
+    {
+      "startMs": 13219,
+      "endMs": 13320,
+      "index": 447
+    },
+    {
+      "startMs": 16219,
+      "endMs": 16327,
+      "index": 550
+    }
+  ],
+  "complete_closed_eye_events": 6,
+  "initial_partial_blink": false,
+  "foot_max_display_pixel_change": {
+    "webp": 0,
+    "gif": 0
+  },
+  "face_change_events": {
+    "webp": 36,
+    "gif": 36
+  },
+  "review_reel": "10 fps half-size resampling of screen captures, not the production animation",
+  "sha256": {
+    "portrait-idle.webp": "b8e85481ca8075f6753f21af10959e75e360108d82a81ee57cc4e68b48bcbc5a",
+    "portrait-idle.gif": "04d96151e6b613e9bda3615ad6413d2452bf6a3bdf12ea0c3d9bbad7f878109f"
+  }
+}

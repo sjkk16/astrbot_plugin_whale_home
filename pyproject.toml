@@ -1,0 +1,38 @@
+[project]
+name = "astrbot-plugin-whale-home"
+version = "0.4.2"
+description = "A single-character, local-first AI home for AstrBot"
+requires-python = ">=3.12"
+dependencies = [
+  "aiosqlite>=0.21.0,<1",
+  "pydantic>=2.12.5,<3",
+  "pillow>=11.2.1,<13",
+  "pathfinding>=1.0.18,<2",
+  "tzdata>=2025.1",
+  "playwright>=1.58,<2",
+]
+
+[dependency-groups]
+dev = [
+  "pytest>=8.4,<10",
+  "pytest-asyncio>=1.1,<2",
+  "pytest-cov>=6,<8",
+  "ruff>=0.14,<1",
+  "fastapi>=0.115,<1",
+  "uvicorn>=0.34,<1",
+  "python-multipart>=0.0.20",
+  "httpx>=0.28,<1",
+]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+asyncio_default_fixture_loop_scope = "function"
+testpaths = ["tests"]
+
+[tool.ruff]
+target-version = "py312"
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F", "I"]
+

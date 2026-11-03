@@ -1,0 +1,20 @@
+{
+  "method": "existing model-produced face blended into original portrait",
+  "edited_region": [
+    205,
+    103,
+    306,
+    191
+  ],
+  "outside_face_changed_pixels": 0,
+  "original_alpha_preserved": true,
+  "source_sha256": "a854bc33ebee7acf7a965a3e71c993e9efd00b3daa1870d00827385ff53ceac9",
+  "width": 500,
+  "height": 991,
+  "foot_anchor": [
+    0.512,
+    1.0
+  ],
+  "approved": true,
+  "processed_sha256": "765e1af88a1a74a732cc808b12db1b9b8d55a0efbe17557b4115aba29fe92684"
+}

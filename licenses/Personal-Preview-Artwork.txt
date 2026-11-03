@@ -1,0 +1,19 @@
+Historical personal-preview notice; superseded for the current public release by USER-CONFIRMED-DISTRIBUTION.txt. Original wording is retained below for provenance.
+
+Personal-preview artwork notice (not a copyright license)
+
+The night-room.webp asset is a WebP conversion of the user's selected local concept image.
+Source SHA-256: 3272ec74b024ffdb179e89ee3f6888e3c6999af65af2ce74824d717a71e87ef7
+Source provenance records a user-directed third-party image service; its underlying model was not independently verified.
+The service's applicable terms and the artwork's public redistribution rights have not been reviewed.
+This build is supplied only as a personal-installation preview. Inclusion does not establish commercial use or public redistribution rights.
+The code's MIT license does not grant rights in this artwork. See ASSETS.md and PERSONAL-USE-NOTICE.md.
+
+The v0.3.0 interaction sprites are AI-derived from the user-provided deepseek.png character.
+The original character author and redistribution rights remain unverified. These sprites are personal-preview-only, not licensed by the code MIT license. No new image generation is performed when building this package.
+
+The 2026-11-02 workspace chibi sprites are extracted from a user-provided JPEG reference.
+Source SHA-256: 12c5fd201fb65161b30d803a45b5fd29ff4ae6e02a3b1394d1a1c8fd86a75f5b
+Author and redistribution rights remain unverified; personal preview only, not code MIT.
+The eat asset is the same neutral front, not a newly authored eating pose.
+The previous MIT chibi assets are preserved separately with their original attribution.

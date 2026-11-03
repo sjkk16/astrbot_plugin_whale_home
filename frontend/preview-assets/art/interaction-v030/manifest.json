@@ -1,0 +1,307 @@
+{
+  "schema_version": 1,
+  "status": "playable-preview-complete-artwork",
+  "new_model_calls": 8,
+  "image_cli_invocations": 8,
+  "call_count_scope": "Remaining-eight completion ledger, including earlier sessions; excludes the four prior variants.",
+  "sdk_transport_retry_default": 2,
+  "http_attempt_count": "Not independently observed",
+  "rights": "Personal preview only; source rights unverified.",
+  "default_and_chibi_assets_replaced": false,
+  "variants": {
+    "happy": {
+      "path": "./art/interaction-v030/happy.webp",
+      "source": "output/imagegen/interaction-v030/sample-smile.png",
+      "source_sha256": "57774aad2e4f0d8e1c6003ced35f3e15d66aeb14257b45486c3338675167fe8a",
+      "sha256": "609919ae2ea4f5f64787363595b2e798b4d8fc95847067a482c7c1d0e8576c35",
+      "width": 500,
+      "height": 991,
+      "foot_anchor": [
+        0.512,
+        1.0
+      ],
+      "method": "reuse existing reviewed sample unchanged"
+    },
+    "eat": {
+      "path": "./art/interaction-v030/eat.webp",
+      "source": "output/imagegen/interaction-v030/sample-eat.png",
+      "source_sha256": "f7eb06e0dc95638ef8b0206fab501ad20ebb212f957aefebc54ea9e37bc356bf",
+      "sha256": "e4451daf550534794b68606463a9098e06cd01b19a07b963b29bdd9e1b9a540a",
+      "width": 735,
+      "height": 1453,
+      "foot_anchor": [
+        0.510204,
+        1.0
+      ],
+      "method": "reuse existing reviewed sample unchanged"
+    },
+    "thinking": {
+      "path": "./art/interaction-v030/thinking.webp",
+      "source": "output/imagegen/interaction-v030/full-set/raw/thinking.png",
+      "source_sha256": "4aa8907614913ab672497b5ece876ed6873aa01a77ab068b7c8d34b4436ae023",
+      "sha256": "b5e8ed2a9b7dabb9296a9f8024980e35cf9ef4e6512d3cb3018bcc3cbfa11e1d",
+      "width": 500,
+      "height": 991,
+      "foot_anchor": [
+        0.512,
+        1.0
+      ],
+      "method": "existing model-produced face blended into original portrait",
+      "edited_region": [
+        205,
+        103,
+        306,
+        191
+      ],
+      "outside_face_changed_pixels": 0,
+      "original_alpha_preserved": true
+    },
+    "sleepy": {
+      "path": "./art/interaction-v030/sleepy.webp",
+      "source": "output/imagegen/interaction-v030/full-set/raw/sleepy.png",
+      "source_sha256": "4f587e99ae73f0bfbf5142fb1ec6aa89d5e09ebc57aa8610a94757bbe41b3ad4",
+      "sha256": "c2d65878d0fb9b44141f6b6183fb90589259b297e822fa327addc53a3fd646ce",
+      "width": 500,
+      "height": 991,
+      "foot_anchor": [
+        0.512,
+        1.0
+      ],
+      "method": "existing model-produced face blended into original portrait",
+      "edited_region": [
+        205,
+        103,
+        306,
+        191
+      ],
+      "outside_face_changed_pixels": 0,
+      "original_alpha_preserved": true
+    },
+    "shy": {
+      "path": "./art/interaction-v030/shy.webp",
+      "source": "output/imagegen/interaction-v030/full-set/raw/shy.png",
+      "source_sha256": "c303abe37b53a87630af570db50335d52dd207902bba290e201ede88b84dec61",
+      "sha256": "046b9cb13ce35a0112342f41a620c47fc00292dfc99752c3e86bf638a19a14e0",
+      "width": 500,
+      "height": 991,
+      "foot_anchor": [
+        0.512,
+        1.0
+      ],
+      "method": "existing model-produced face blended into original portrait",
+      "edited_region": [
+        205,
+        103,
+        306,
+        191
+      ],
+      "outside_face_changed_pixels": 0,
+      "original_alpha_preserved": true
+    },
+    "sad": {
+      "path": "./art/interaction-v030/sad.webp",
+      "source": "output/imagegen/interaction-v030/full-set/raw/sad.png",
+      "source_sha256": "a854bc33ebee7acf7a965a3e71c993e9efd00b3daa1870d00827385ff53ceac9",
+      "sha256": "13eec3b23e45b2152bae850a68db63da61c6ba239ceddba525c1ae7b97def005",
+      "width": 500,
+      "height": 991,
+      "foot_anchor": [
+        0.512,
+        1.0
+      ],
+      "method": "existing model-produced face blended into original portrait",
+      "edited_region": [
+        205,
+        103,
+        306,
+        191
+      ],
+      "outside_face_changed_pixels": 0,
+      "original_alpha_preserved": true
+    },
+    "pet": {
+      "path": "./art/interaction-v030/pet.webp",
+      "source": "output/imagegen/interaction-v030/full-set/raw/pet.png",
+      "source_sha256": "5aab0b4c5720e764b595dc760652bbd0f8a760637a39620898afb72e7fb7e957",
+      "sha256": "3a09066838745a48af5952cf022c0e44e3dddd570a7bb77fc13b70d20d056266",
+      "width": 738,
+      "height": 1442,
+      "foot_anchor": [
+        0.511518,
+        1.0
+      ],
+      "method": "Connected alpha >=16 with two-pixel edge support; transparent-margin crop",
+      "crop_box": [
+        143,
+        47,
+        881,
+        1489
+      ],
+      "face_seed": [
+        512,
+        270
+      ],
+      "alpha_noise_pixels_removed": 18823,
+      "near_opaque_pixels_changed": 0,
+      "rgb_pixels_changed": 0,
+      "remaining_subject_alpha_unchanged": true,
+      "no_white_color_keying": true,
+      "no_repainting_or_new_generation": true
+    },
+    "accept": {
+      "path": "./art/interaction-v030/accept.webp",
+      "source": "output/imagegen/interaction-v030/full-set/raw/accept.png",
+      "source_sha256": "d8345112d247804e7befa1fc5cb57a369cb43655bf7cfc1ee98313c4763e6dae",
+      "sha256": "e7332f0a324d70467060df759b83796e919f9c97bb55ed45ba3a55ec7b6cfdda",
+      "width": 740,
+      "height": 1474,
+      "foot_anchor": [
+        0.510811,
+        1.0
+      ],
+      "method": "Connected alpha >=16 with two-pixel edge support; transparent-margin crop",
+      "crop_box": [
+        144,
+        19,
+        884,
+        1493
+      ],
+      "face_seed": [
+        512,
+        270
+      ],
+      "alpha_noise_pixels_removed": 13601,
+      "near_opaque_pixels_changed": 0,
+      "rgb_pixels_changed": 0,
+      "remaining_subject_alpha_unchanged": true,
+      "no_white_color_keying": true,
+      "no_repainting_or_new_generation": true
+    },
+    "drink": {
+      "path": "./art/interaction-v030/drink.webp",
+      "source": "output/imagegen/interaction-v030/full-set/raw/drink.png",
+      "source_sha256": "3eb1b294d3193af8a979c79ddcde83b83897b04f53be89deb368e169071fc695",
+      "sha256": "b8768dd51ee5a88cbe434fccb5ed68a11a79c3e0053b9e7c7a45e08b0428b712",
+      "width": 746,
+      "height": 1463,
+      "foot_anchor": [
+        0.508713,
+        1.0
+      ],
+      "method": "Connected alpha >=16 with two-pixel edge support; transparent-margin crop",
+      "crop_box": [
+        141,
+        29,
+        887,
+        1492
+      ],
+      "face_seed": [
+        512,
+        270
+      ],
+      "alpha_noise_pixels_removed": 22638,
+      "near_opaque_pixels_changed": 0,
+      "rgb_pixels_changed": 0,
+      "remaining_subject_alpha_unchanged": true,
+      "no_white_color_keying": true,
+      "no_repainting_or_new_generation": true
+    },
+    "read": {
+      "path": "./art/interaction-v030/read.webp",
+      "source": "output/imagegen/interaction-v030/full-set/raw/read.png",
+      "source_sha256": "528b491daeffff57785212aa3917cc5799daf4e883fa0b721a41df2abdd36553",
+      "sha256": "99287917dc811678cd508af6de993bd67306935590dcaab1fe1a6ab649c1a739",
+      "width": 753,
+      "height": 1447,
+      "foot_anchor": [
+        0.51328,
+        1.0
+      ],
+      "method": "Connected alpha >=16 with two-pixel edge support; transparent-margin crop",
+      "crop_box": [
+        135,
+        42,
+        888,
+        1489
+      ],
+      "face_seed": [
+        512,
+        270
+      ],
+      "alpha_noise_pixels_removed": 20305,
+      "near_opaque_pixels_changed": 0,
+      "rgb_pixels_changed": 0,
+      "remaining_subject_alpha_unchanged": true,
+      "no_white_color_keying": true,
+      "no_repainting_or_new_generation": true
+    },
+    "play": {
+      "path": "./art/interaction-v030/play.webp",
+      "source": "output/imagegen/interaction-v030/full-set/raw/play.png",
+      "source_sha256": "dcd5fbd178d5e13f1a4e57730893e4202112d64ffb88b0eef8d1ece4e84598cb",
+      "sha256": "d15559cf11dc23f3bfa72c4fc94bab00dda841e68e462781b7ad0a74ab15b51d",
+      "width": 736,
+      "height": 1436,
+      "foot_anchor": [
+        0.51087,
+        1.0
+      ],
+      "method": "Connected alpha >=16 with two-pixel edge support; transparent-margin crop",
+      "crop_box": [
+        144,
+        53,
+        880,
+        1489
+      ],
+      "face_seed": [
+        512,
+        270
+      ],
+      "alpha_noise_pixels_removed": 25854,
+      "near_opaque_pixels_changed": 0,
+      "rgb_pixels_changed": 0,
+      "remaining_subject_alpha_unchanged": true,
+      "no_white_color_keying": true,
+      "no_repainting_or_new_generation": true
+    },
+    "rest": {
+      "path": "./art/interaction-v030/rest.webp",
+      "source": "output/imagegen/interaction-v030/full-set/raw/rest.png",
+      "source_sha256": "2e391842f0013d4ed9c1443ef2e7bc13b010fa06936f5758ea994992c57b0887",
+      "sha256": "104d0542a6a01aec1fa3bbf61f3d59c69bf0e1ae33a133200d11b18992c03890",
+      "width": 722,
+      "height": 1472,
+      "foot_anchor": [
+        0.509695,
+        1.0
+      ],
+      "method": "Connected alpha >=16 with two-pixel edge support; transparent-margin crop",
+      "crop_box": [
+        153,
+        23,
+        875,
+        1495
+      ],
+      "face_seed": [
+        512,
+        270
+      ],
+      "alpha_noise_pixels_removed": 22410,
+      "near_opaque_pixels_changed": 0,
+      "rgb_pixels_changed": 0,
+      "remaining_subject_alpha_unchanged": true,
+      "no_white_color_keying": true,
+      "no_repainting_or_new_generation": true
+    }
+  },
+  "reference": {
+    "width": 500,
+    "height": 991,
+    "foot_anchor": [
+      0.512,
+      1.0
+    ]
+  },
+  "pending_illustrations": [],
+  "pending_behavior": "Use available expression feedback, not a fabricated action illustration."
+}

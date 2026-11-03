@@ -1,0 +1,28 @@
+{
+  "method": "Connected alpha >=16 with two-pixel edge support; transparent-margin crop",
+  "crop_box": [
+    153,
+    23,
+    875,
+    1495
+  ],
+  "face_seed": [
+    512,
+    270
+  ],
+  "alpha_noise_pixels_removed": 22410,
+  "near_opaque_pixels_changed": 0,
+  "rgb_pixels_changed": 0,
+  "remaining_subject_alpha_unchanged": true,
+  "no_white_color_keying": true,
+  "no_repainting_or_new_generation": true,
+  "source_sha256": "2e391842f0013d4ed9c1443ef2e7bc13b010fa06936f5758ea994992c57b0887",
+  "width": 722,
+  "height": 1472,
+  "foot_anchor": [
+    0.509695,
+    1.0
+  ],
+  "approved": true,
+  "processed_sha256": "5437e33c558fb776768ba35d079924882e197f9950d151eeff53e390ed829ae6"
+}

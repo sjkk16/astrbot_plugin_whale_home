@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "file": "appearance-reference-v1.png",
+  "sha256": "1debce40cf05ef1b6ee1ec138595036d55667224cb1306e3f4d77de0e2b0b97e",
+  "recorded_at": "2026-10-31T20:54:47+08:00",
+  "source": "User-provided image attachment after rejection of generated portrait.",
+  "role": "Appearance and style reference; not yet integrated or sent to an image API.",
+  "license": "Not established by this record; user upload is not a redistribution license.",
+  "modifications": "None; exact byte copy."
+}

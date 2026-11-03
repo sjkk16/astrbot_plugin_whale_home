@@ -1,0 +1,2 @@
+# Preserve exact bytes for audited source/artwork hashes and reproducible ZIPs.
+* -text
